@@ -82,7 +82,7 @@ export class ScreenEngine {
   private ariaInteractions = 0
   private scrollOffset = 0
   private readonly maxVisibleLines = 18
-  private tutorialStep: number | null = 0  // 0=login, 1=help, 2=clear, 3=goodbye, null=done
+  private tutorialStep: number | null = null  // 0=login, 1=help, 2=clear, 3=goodbye, null=done
 
   private getStatusLabel(): string {
     if (this.mode === 'login') {
