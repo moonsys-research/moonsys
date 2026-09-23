@@ -1,4 +1,4 @@
-﻿export const TARGET_CONTRACT_ADDRESS = '67oSMzmmM5hVbow3dV7g7fgdHHL9urj3w6FbwS5vbaRU'
+﻿export const TARGET_CONTRACT_ADDRESS = '3oBDSvWJDVsxafPuTYLnMnqUp323ueyaZ1qCUEUhpump'
 
 export const BOOT_SCREEN_LINES: string[] = [
   'MOONSYS TERMINAL :: BOOT OK',
